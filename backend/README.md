@@ -12,6 +12,15 @@
 ### when you change something in prisma.schema you should run npx prisma migrate dev --name init_schema( it will take the latest schma from the file and the data base url from .env(actual db url) and do the changes in actual db
 ### then generate the client (so that you can use User.add, post.findOne()) using npm prisma generate --no-engine
 
+
+
+
+## to deployu
+
+### npx wrangler login (to login into cloudflare account)
+### npx wrangler whoami (to check where you are loggedin or not)
+
+
 # .
 # .
 # .
